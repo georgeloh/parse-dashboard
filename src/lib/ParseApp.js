@@ -202,6 +202,12 @@ export default class ParseApp {
     return p;
   }
 
+  getRelationCount(relation) {
+    this.setParseKeys();
+    let p = relation.query().count({ useMasterKey: true });
+    return p;
+  }
+
   getAnalyticsRetention(time) {
     time = Math.round(time.getTime() / 1000);
     return AJAX.abortableGet('/apps/' + this.slug + '/analytics_retention?at=' + time);
@@ -372,11 +378,6 @@ export default class ParseApp {
       urlsSeparator = '&';
     }
     return AJAX.abortableGet(audienceId ? `${path}${urlsSeparator}audienceId=${audienceId}` : path);
-  }
-
-  createPushNotification(formData) {
-    let path = '/apps/' + this.slug + '/push_notifications';
-    return AJAX.post(path, formData);
   }
 
   fetchPushNotifications(type, page) {
