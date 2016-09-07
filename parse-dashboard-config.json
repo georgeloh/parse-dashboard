@@ -1,0 +1,42 @@
+{
+  "apps": [
+    {
+    "serverURL": "https://api.parse.com/1",
+    "appId": "ikl7id01nHiZT1zWq1a7eYINxVfmgJxJ5xMUgA20",
+    "masterKey": "Di80gSSRBKVkkqq8MMeWJAblvYQfJS4Lvi00OKr5",
+    "javascriptKey": "zjPF4eKIi4b5jJX2VdHonJrPmJ0mQD3ydMptknOl",
+    "restKey": "WralARsBGhOnVSf1hnZZgdTqNwauVMoJiSFehhoK",
+    "appName": "@MusicTube"
+    },
+    {
+    "serverURL": "http://parse-myapp-01.herokuapp.com/parse",
+    "appId": "KythUeD8rj0LheV8Y3KjQyWJMSqEoQR5RO3zdh0h",
+    "masterKey": "vWvorhGhnCAjdXaqdNCrYyqrNJ7lq1dKYkbgKxHv",
+    "appName": "@Music"
+    },
+    {
+    "serverURL": "http://parse-myapp-02.herokuapp.com/parse",
+    "appId": "Rdds81GaWquYfzBzs2DczCNYkFBaOFJemQMAJ2YU",
+    "masterKey": "25riuI2vwT65pefgB7SeY7zIZgQeGqT18YsuOzUw",
+    "appName": "PushTest"
+    },
+    {
+    "serverURL": "http://parse-myapp-03.herokuapp.com/parse",
+    "appId": "uNqU3IHOEHAis8ixttgvThUo70042cEbRzFBlGDv",
+    "masterKey": "jZYYRxqWOeC1r9iBjRt3VDltWWIWHqiMYIXaxZla",
+    "appName": "xMusic"
+    },
+    {
+    "serverURL": "http://54.65.177.27:1337/parse",
+    "appId": "uNqU3IHOEHAis8ixttgvThUo70042cEbRzFBlGDv",
+    "masterKey": "jZYYRxqWOeC1r9iBjRt3VDltWWIWHqiMYIXaxZla",
+    "appName": "xMusic_aws"
+    }
+  ],
+  "users": [
+    {
+    "user":"georgeloh",
+    "pass":"georjohn"
+    }
+  ]
+}
