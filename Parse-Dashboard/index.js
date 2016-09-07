@@ -6,7 +6,7 @@
  * the root directory of this source tree.
  */
 // Command line tool for npm start
-"use strict"
+'use strict'
 const packageJson = require('package-json');
 const basicAuth = require('basic-auth');
 const path = require('path');
