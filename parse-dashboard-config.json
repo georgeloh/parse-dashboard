@@ -30,7 +30,8 @@
     "serverURL": "http://xmusicapp.ddns.net:1337/parse",
     "appId": "uNqU3IHOEHAis8ixttgvThUo70042cEbRzFBlGDv",
     "masterKey": "jZYYRxqWOeC1r9iBjRt3VDltWWIWHqiMYIXaxZla",
-    "appName": "xMusic_aws"
+    "appName": "xMusic_aws",
+    "iconName": "DefaultIcon.png"
     },
     {
     "serverURL": "http://www.777gstudio.com:1337/parse",
