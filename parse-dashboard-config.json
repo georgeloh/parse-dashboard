@@ -27,10 +27,16 @@
     "appName": "xMusic"
     },
     {
-    "serverURL": "http://54.65.177.27:1337/parse",
+    "serverURL": "http://xmusicapp.ddns.net:1337/parse",
     "appId": "uNqU3IHOEHAis8ixttgvThUo70042cEbRzFBlGDv",
     "masterKey": "jZYYRxqWOeC1r9iBjRt3VDltWWIWHqiMYIXaxZla",
     "appName": "xMusic_aws"
+    },
+    {
+    "serverURL": "http://www.777gstudio.com:1337/parse",
+    "appId": "uNqU3IHOEHAis8ixttgvThUo70042cEbRzFBlGDv",
+    "masterKey": "jZYYRxqWOeC1r9iBjRt3VDltWWIWHqiMYIXaxZla",
+    "appName": "xMusic_aws_II"
     }
   ],
   "users": [

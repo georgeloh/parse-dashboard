@@ -1,7 +1,7 @@
 {
   "apps" : [{
     "name"        : "parse-dashboard-wrapper",
-    "script"      : "/parse-dashboard",
+    "script"      : "parse-dashboard",
     "watch"       : true,
     "merge_logs"  : true,
     "cwd"         : "/home/ubuntu/parse/parse-dashboard/parse-dashboard",
